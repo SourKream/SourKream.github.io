@@ -1,6 +1,7 @@
 # Site settings
 title: Shantanu Kumar
 email: kumarshantanu95@gmail.com
+webmail: ee1130798@ee.iitd.ac.in
 description: > # this means to ignore newlines until "baseurl:"
   I am a BTech student at IIT Delhi. I am building this webpage for my profile and my projects.
 baseurl: "" # the subpath of your site, e.g. /blog/
