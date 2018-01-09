@@ -3,10 +3,20 @@ layout: default
 ---
 <div class="post">
 
+  <br>
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
+
+  <center>
+	  <script src="../../../../../P5/p5.min.js"></script>
+	  <script src="../../../../../P5/p5.dom.min.js"></script>
+	  <script src="../../../../../P5/p5.sound.min.js"></script>
+	  <script src={{ page.js_source }}></script>
+	  <div class="page-drawing" id="{{ page.div_id }}"></div>
+  </center>
+  <br><br>
 
   <article class="post-content">
     {{ content }}
