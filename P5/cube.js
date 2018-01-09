@@ -8,7 +8,8 @@ let border = 6;
 let time = 0;
 
 function setup() {
-	createCanvas(width, height, WEBGL);
+	var canvas = createCanvas(width, height, WEBGL);
+	canvas.parent('cube_holder');
 	ortho();
 }
 
