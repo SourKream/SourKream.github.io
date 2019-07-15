@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Flocking simulation"
+date:   2019-03-01 13:00:00
+categories: jekyll update
+js_source: ../../../../../P5/Flocking/flocking.js
+---
+
+<script src="../../../../../P5/Flocking/agent.js"></script>
+
+<center>
+	<div 
+		class="drawing" id="flock_div" style="
+		margin-left: calc(-100vw / 2 + 500px / 2); 
+		margin-right: calc(-100vw / 2 + 500px / 2);
+	"></div>
+</center>
+
